@@ -101,14 +101,3 @@ Tokens dropped  : 0
 
 ---
 
-## File Structure
-
-
-warmup2/
-├── warmup2.c      # All thread logic, main(), signal handler
-├── Makefile       # Build instructions
-└── README.md      # This file
-
-
----
-
