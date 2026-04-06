@@ -1,14 +1,14 @@
-# Token Bucket Filter — CSCI 402 Operating Systems (USC)
+# Token Bucket Filter
 
 ## Problem Statement
 
-This project simulates a **token bucket filter** — a classic network
-traffic shaper — using multi-threading in C.
+This project simulates a **token bucket filter** , a classic network
+traffic shaper - using multi-threading in C.
 
 A token bucket filter controls the rate at which packets are transmitted.
 Packets arrive at rate λ (lambda) packets/second. Each packet needs P tokens
 to become eligible for transmission. Tokens are added to a bucket at rate r
-tokens/second. The bucket has a maximum depth of B tokens — overflow tokens
+tokens/second. The bucket has a maximum depth of B tokens - overflow tokens
 are discarded. A server transmits eligible packets at rate μ (mu)
 packets/second.
 
@@ -108,7 +108,6 @@ warmup2/
 ├── warmup2.c      # All thread logic, main(), signal handler
 ├── Makefile       # Build instructions
 └── README.md      # This file
-
 
 
 ---
