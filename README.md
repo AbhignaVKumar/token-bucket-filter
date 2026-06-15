@@ -14,10 +14,10 @@ packets/second.
 
 ### System Components
 Packets (rate λ) → Q1 → [Token Bucket, depth B, rate r] → Q2 → Server S (rate u)
-- **Q1** — waiting queue for packets that don't yet have enough tokens
-- **Token bucket** — holds up to B tokens, filled at rate r tokens/sec
-- **Q2** — ready queue for packets that have received their P tokens
-- **Server S** — transmits packets from Q2 at rate μ packets/sec
+- **Q1** - waiting queue for packets that don't yet have enough tokens
+- **Token bucket** - holds up to B tokens, filled at rate r tokens/sec
+- **Q2** - ready queue for packets that have received their P tokens
+- **Server S** - transmits packets from Q2 at rate μ packets/sec
 
 ### Rules
 - A packet arriving at Q1 immediately moves to Q2 if the bucket has ≥ P tokens
